@@ -5958,14 +5958,14 @@ input.upload-input {
 }
 
 .left-bottom {
-    background: url('../img/table_bottom_left.png') repeat-x;
+    background: url('http://cdn.pictcake.cn/static/img/table_bottom_left.png') repeat-x;
     height: 201px;
     left: 0px;
     position: absolute;
 }
 
 .right-bottom {
-    background: url('../img/table_bottom_right.png') repeat-x;
+    background: url('http://cdn.pictcake.cn/static/img/table_bottom_right.png') repeat-x;
     height: 166px;
     width: 50%;
     right: 0px;
@@ -5973,14 +5973,14 @@ input.upload-input {
 }
 
 .left-bottom-phone {
-    background: url('../img/table_bottom_left1.png') repeat-x;
+    background: url('http://cdn.pictcake.cn/static/img/table_bottom_left1.png') repeat-x;
     height: 93px;
     left: 0px;
     position: absolute;
 }
 
 .right-bottom-phone {
-    background: url('../img/table_bottom_right1.png') repeat-x;
+    background: url('http://cdn.pictcake.cn/static/img/table_bottom_right1.png') repeat-x;
     height: 93px;
     width: 50%;
     right: 0px;
@@ -5988,7 +5988,7 @@ input.upload-input {
 }
 
 .cake {
-    background: url('../img/bottom-table.png') no-repeat no-repeat;
+    background: url('http://cdn.pictcake.cn/static/img/bottom-table.png') no-repeat no-repeat;
     width: 866px;
     height: 544px;
     position: absolute;
@@ -6006,7 +6006,7 @@ input.upload-input {
 }
 
 .cake1 {
-    background: url('../img/cake1.png') no-repeat no-repeat;
+    background: url('http://cdn.pictcake.cn/static/img/cake1.png') no-repeat no-repeat;
     width: 450px;
     height: 450px;
     position: absolute;
@@ -6016,7 +6016,7 @@ input.upload-input {
 }
 
 .cake1-phone {
-    background: url('../img/cake2.png') no-repeat no-repeat;
+    background: url('http://cdn.pictcake.cn/static/img/cake2.png') no-repeat no-repeat;
     width: 250px;
     height: 250px;
     position: absolute;
@@ -6026,7 +6026,7 @@ input.upload-input {
 }
 
 .right-news {
-    background: url('../img/right-news.png') no-repeat no-repeat;
+    background: url('http://cdn.pictcake.cn/static/img/right-news.png') no-repeat no-repeat;
 
     position: absolute;
     width: 292px;
@@ -6036,7 +6036,7 @@ input.upload-input {
 }
 
 .right-news1 {
-    background: url('../img/right-news1.png') no-repeat no-repeat;
+    background: url('http://cdn.pictcake.cn/static/img/right-news1.png') no-repeat no-repeat;
     position: absolute;
     width: 292px;
     height: 214px;

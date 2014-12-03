@@ -6527,7 +6527,7 @@ strong, em {
 
 }
 
-.media-list > li:hover img {
+.indexCake > li:hover img {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -6536,14 +6536,17 @@ strong, em {
 
 }
 
-.media-list > li img {
+.indexCake > li img {
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
 }
-
+.width-height100{
+    width: 100px;
+    height: 100px;
+}
 .media-content {
     overflow: hidden;
 }

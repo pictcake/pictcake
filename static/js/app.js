@@ -571,11 +571,11 @@ jsGen
 .factory('restAPI', ['$resource',
     function ($resource) {
         return {
-            index: $resource('http://rest.pictcake.cn/api/index/:OP'),
-            user: $resource('http://rest.pictcake.cn/api/user/:ID/:OP'),
-            article: $resource('http://rest.pictcake.cn/api/article/:ID/:OP'),
-            order: $resource('http://rest.pictcake.cn/api/order/:ID/:OP'),
-            tag: $resource('http://rest.pictcake.cn/api/tag/:ID/:OP')
+            index: $resource('/api/index/:OP'),
+            user: $resource('/api/user/:ID/:OP'),
+            article: $resource('/api/article/:ID/:OP'),
+            order: $resource('/api/order/:ID/:OP'),
+            tag: $resource('/api/tag/:ID/:OP')
         };
     }
 ])

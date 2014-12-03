@@ -1615,7 +1615,7 @@ jsGen
                 }else{
                     var data = {
                         _id: global.order._id || 0,
-                        price: global.order.price || $scope.num,//订单价格
+                        price: global.order.price+"" || $scope.num+"",//订单价格
                         cakeName: global.order.cakeName || global.selectCake.title,//蛋糕名称
                         cakeId: global.order.cakeId || global.selectCake._id,//蛋糕的id，就是article的id
                         shopperId: global.order.shopperId ||  global.selectCake.author._id,//就是发布这个蛋糕article的用户的id

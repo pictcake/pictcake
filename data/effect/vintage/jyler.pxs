@@ -1,0 +1,83 @@
+{
+	"name" : "Jyler",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 2
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "fill",
+			"param" :
+			{
+				"x" : 0,
+				"y" : 0,
+				"width" : 100,
+				"height" : 100,
+				"color" : "0xca8d21"
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+				"blend" : "softlight",
+				"opacity" : 70
+			}
+		},
+		{
+			"type" : "fill",
+			"param" :
+			{
+				"x" : 0,
+				"y" : 0,
+				"width" : 100,
+				"height" : 100,
+				"color" : "0x07383c"
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+				"blend" : "screen",
+				"opacity" : 70
+			}
+		},
+		{
+			"type" : "fill",
+			"param" :
+			{
+				"x" : 0,
+				"y" : 0,
+				"width" : 100,
+				"height" : 100,
+				"color" : "0x575656"
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+				"blend" : "softlight",
+				"opacity" : 70
+			}
+		},
+		{
+			"type" : "saturation",
+			"param" : 
+			{
+				"amount" : -20
+			}
+		}
+	]
+}

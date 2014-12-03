@@ -1,0 +1,54 @@
+{
+	"name" : "Agatha",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "desaturate",
+			"param" : { }
+		},
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "noise",
+			"param" : 
+			{
+				"amount" : 400
+			}
+		},
+		{
+			"type" : "blur",
+			"param" : 
+			{
+				"amount" : 2,
+				"quality" : 10
+			}
+		},
+		{
+			"type" : "noise",
+			"param" : 
+			{
+				"amount" : 5
+			}
+		},
+		{
+			"type" : "merge",
+			"param" :
+			{
+				"blend" : "overlay",
+				"opacity" : 50
+			}
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"name" : "Helena",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 2
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "copy",
+			"param" :
+			{
+				"x" : 30.5,
+				"y" : 0,
+				"width" : 24,
+				"height" : 100,
+				"tx" : 30.5,
+				"ty" : 0
+			}
+		},
+		{
+			"type" : "desaturate",
+			"target" : 0,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "fill",
+			"param" :
+			{
+				"x" : 30,
+				"y" : 0,
+				"width" : 25,
+				"height" : 100,
+				"color" : "0x000000"
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 2,
+			"param" : 
+			{
+				
+			}
+		},
+		{
+			"type" : "merge",
+			"param" : 
+			{
+
+			}
+		}
+	]
+}

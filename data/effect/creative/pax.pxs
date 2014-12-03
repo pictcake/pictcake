@@ -1,0 +1,162 @@
+{
+	"name" : "Pax",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 2
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 75,
+				"y" : 55,
+				"width" : 10,
+				"height" : 10,
+				"tx" : 55,
+				"ty" : 45,
+				"scale" : 200
+			}
+		},
+		{
+			"type" : "sharpen",
+			"param" : { }
+		},
+		{
+			"type" : "fill",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 54.5,
+				"y" : 44.5,
+				"width" : 21,
+				"height" : 21,
+				"color" : "0xffffff"
+			}
+		},
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 35,
+				"y" : 25,
+				"width" : 10,
+				"height" : 10,
+				"tx" : 15,
+				"ty" : 5,
+				"scale" : 200
+			}
+		},
+		{
+			"type" : "sharpen",
+			"param" : { }
+		},
+		{
+			"type" : "fill",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 14.5,
+				"y" : 4.5,
+				"width" : 21,
+				"height" : 21,
+				"color" : "0xffffff"
+			}
+		},
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 40,
+				"y" : 85,
+				"width" : 10,
+				"height" : 10,
+				"tx" : 20,
+				"ty" : 77,
+				"scale" : 200
+			}
+		},
+		{
+			"type" : "sharpen",
+			"param" : { }
+		},
+		{
+			"type" : "fill",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 19.5,
+				"y" : 76.5,
+				"width" : 21,
+				"height" : 21,
+				"color" : "0xffffff"
+			}
+		},
+		{
+			"type" : "saturation",
+			"target" : 0,
+			"param" :
+			{
+				"amount" : -85
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		}
+	]
+}

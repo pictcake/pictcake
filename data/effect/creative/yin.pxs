@@ -1,0 +1,95 @@
+{
+	"name" : "Yin",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 2
+	},
+
+	"actions" :
+	[
+		{
+			"type" : "copy",
+			"param" :
+			{
+				"x" : 0,
+				"y" : 66,
+				"width" : 100,
+				"height" : 33,
+				"tx" : 0,
+				"ty" : -1
+			}
+		},
+		{
+			"type" : "fill",
+			"target": 0,
+			"param" :
+			{
+				"x" : 0,
+				"y" : 0,
+				"width" : 100,
+				"height" : 33,
+				"color" : "0x000000"
+			}
+		},
+		{
+			"type" : "copy",
+			"target": 0,
+			"param" :
+			{
+				"x" : 0,
+				"y" : 0,
+				"width" : 100,
+				"height" : 33,
+				"tx" : 0,
+				"ty" : 67
+			}
+		},
+		{
+			"type" : "fill",
+			"target": 0,
+			"param" :
+			{
+				"x" : 0,
+				"y" : 66,
+				"width" : 100,
+				"height" : 34,
+				"color" : "0x000000"
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 2,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 2,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"param" : 
+			{
+
+			}
+		}
+	]
+}

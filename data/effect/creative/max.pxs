@@ -1,0 +1,149 @@
+{
+	"name" : "Max",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 2
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 70,
+				"y" : 40,
+				"width" : 22,
+				"height" : 19.2,
+				"tx" : 6,
+				"ty" : 0
+			}
+		},
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 12,
+				"y" : 15,
+				"width" : 22,
+				"height" : 19.2,
+				"tx" : 6,
+				"ty" : 20.2
+			}
+		},
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 25,
+				"y" : 44,
+				"width" : 22,
+				"height" : 19.2,
+				"tx" : 6,
+				"ty" : 40.4
+			}
+		},
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 15,
+				"y" : 60,
+				"width" : 22,
+				"height" : 19.2,
+				"tx" : 6,
+				"ty" : 60.6
+			}
+		},
+		{
+			"type" : "copy",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 44,
+				"y" : 34,
+				"width" : 22,
+				"height" : 19.2,
+				"tx" : 6,
+				"ty" : 80.8
+			}
+		},
+		{
+			"type" : "fill",
+			"target" : 0,
+			"param" :
+			{
+				"x" : 5,
+				"y" : 0,
+				"width" : 24,
+				"height" : 100,
+				"color" : "0x000000"
+			}
+		},
+		{
+			"type" : "desaturate",
+			"target" : 0,
+			"param" :
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+				
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+
+			}
+		}
+	]
+}

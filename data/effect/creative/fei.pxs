@@ -1,0 +1,69 @@
+{
+	"name" : "Fei",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 2
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "copy",
+			"param" :
+			{
+				"x" : 30,
+				"y" : 0,
+				"width" : 25,
+				"height" : 100,
+				"tx" : 10,
+				"ty" : 0
+			}
+		},
+		{
+			"type" : "pixelate",
+			"target" : 0,
+			"param" : 
+			{
+				"size" : 1
+			}
+		},
+		{
+			"type" : "saturation",
+			"param" : 
+			{
+				"amount" : -85
+			}
+		},
+		{
+			"type" : "fill",
+			"param" :
+			{
+				"x" : 9,
+				"y" : 0,
+				"width" : 27,
+				"height" : 100,
+				"color" : "0xffffff"
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 2,
+			"param" : 
+			{
+				
+			}
+		},
+		{
+			"type" : "merge",
+			"param" : 
+			{
+
+			}
+		}
+	]
+}

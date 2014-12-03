@@ -1,0 +1,71 @@
+{
+	"name" : "Sarah",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "blur",
+			"param" :
+			{
+				"amount" : 10,
+				"quality" : 15
+			}
+		},
+		{
+			"type" : "colorize",
+			"param" :
+			{
+				"hue" : 140
+			}
+		},
+		{
+			"type" : "brightness",
+			"param" :
+			{
+				"amount" : 20
+			}
+		},
+		{
+			"type" : "duplicate",
+			"target" : 0,
+			"param" : { }
+		},
+		{
+			"type" : "blur",
+			"param" :
+			{
+				"amount" : 5,
+				"quality" : 15
+			}
+		},
+		{
+			"type" : "merge",
+			"param" :
+			{
+				"blend" : "lighten"
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" :
+			{
+				"blend" : "add",
+				"opacity" : 50
+			}
+		}
+	]
+}

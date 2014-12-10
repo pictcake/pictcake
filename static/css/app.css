@@ -5251,7 +5251,7 @@ body.modal-open,
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: #aaa;
+    background-color: #fa7777;
     border-radius: 3px;
     letter-spacing: -1px;
 }
@@ -6218,7 +6218,9 @@ input.upload-input {
 .red {
     color: #fb6580;
 }
-
+.no-boxShadow{
+    box-shadow: none ! important;
+}
 .make-cake-step {
 
     font-size: 20px;
@@ -6250,7 +6252,7 @@ input.upload-input {
 }
 
 .font20 {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 .font13 {
@@ -6339,7 +6341,9 @@ input.upload-input {
 .width95 {
     width: 95px ! important;
 }
-
+.display-inline{
+    display: inline;
+}
 .float-box {
     position: absolute;
     width: 240px;
@@ -6363,7 +6367,7 @@ strong, em {
 
 .itemPic {
     width: 250px;
-    height: auto;
+    height: 250px ! important;
 }
 
 .itemArticle {
@@ -6549,6 +6553,9 @@ strong, em {
 }
 .media-content {
     overflow: hidden;
+}
+.margin-bottom50{
+    margin-bottom: 50px;
 }
 
 @-webkit-keyframes shineBlue {

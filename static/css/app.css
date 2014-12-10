@@ -6262,6 +6262,9 @@ input.upload-input {
 .no-margin-left {
     margin-left: 0px;
 }
+.no-margin{
+    margin: 0px ! important ;
+}
 
 .margin-top100 {
     margin-top: 100px;

@@ -1627,14 +1627,13 @@ jsGen
                 });
             }
             $scope.selectShop = function(){
-                getShoppersList();
                 app.rootScope.selectShopModal.modal(true);
             };
             $scope.selectShopperID = function(shop){
                 $scope.shopper = shop;
                 app.rootScope.selectShopModal.modal(false);
             };
-
+            getShoppersList();
 
 
             $scope.makeOrder = function () {
